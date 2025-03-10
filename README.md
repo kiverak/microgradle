@@ -28,7 +28,7 @@ jar cfm ../HelloWorld.jar ../../manifest.txt .
 ### Change to the main directory
 cd ../..
 
-## Run
+### Run
 java -cp "lib/*:out/HelloWorld.jar" helloworld.HelloWorld
 
 
@@ -40,6 +40,7 @@ java -cp "lib/*:out/HelloWorld.jar" helloworld.HelloWorld
 chmod +x microgradle.sh
 
 ### Use commands
+microgradle.sh dependencies \
 microgradle.sh build \
 microgradle.sh run
 
